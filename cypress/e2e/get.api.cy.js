@@ -5,7 +5,7 @@ describe('Buscar dispositivos', () => {
 
     const deviceId = '3'
 
-    it('Buscar dispositivo especifico', () => {
+    it('Buscar dispositivo especifico...', () => {
         cy.buscarDeviceEspecifico(deviceId)
             .then((response) => {
                 expect(response.status).equal(200)
